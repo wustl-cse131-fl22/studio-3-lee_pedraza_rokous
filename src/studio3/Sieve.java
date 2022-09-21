@@ -9,9 +9,23 @@ public class Sieve {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Please choose a number.");
 		int[]numbers = new int[in.nextInt()];
+
+		boolean[] isPrime = new boolean [numbers.length];
+		for(int value : numbers)
+		{
+		isPrime[value] = true;
+		}
 		
-	for(int value : numbers);
-	
+		for(int value : numbers)
+		{
+		isPrime[0] = false;
+		for (int i = 0; i < numbers.length; ++i)
+				{
+			
+				}
+				}
+		}
+
 	}
 
 }
